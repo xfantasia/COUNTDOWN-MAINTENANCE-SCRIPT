@@ -50,18 +50,18 @@ hr {
 <div class="bgimg">
 
   <div class="middle">
-    <h3>D E V E L O P M E N T  &nbsp;&nbsp; I N &nbsp;&nbsp;  P R O G R E S S </h3> 
+    <h3 style="color:red;">D E V E L O P M E N T  &nbsp;&nbsp; I N &nbsp;&nbsp;  P R O G R E S S </h3> 
     <hr>
     
     <article>
         <h1>WE&rsquo;RE COUNTING DOWN TO LAUNCH!</h1>
         <div>
-            <p>If you need to, you can always <a href="mailto:admin@company.com">contact us</a>, otherwise we&rsquo;ll be online shortly!</p>
-            <p>&mdash; The Development Team</p>
+            <p>If you need to, you can always <a href="mailto:admin@directoreel.com">contact us</a>, otherwise we&rsquo;ll be online shortly!</p>
+            <p>&mdash; The Directoreel Team</p>
         </div>
         <hr>
         <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<p id="demo" style="color:green;"></p>
 
 <script>
 // Set the date we're counting down to
@@ -83,7 +83,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo").innerHTML = days + "Days " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
